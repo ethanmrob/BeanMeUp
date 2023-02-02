@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/qux0mcc.css">
+    <title>BeanMeUp - Neighborhood Coffeehouse Collective</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            font-family: neue-haas-grotesk-display, sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            color: #34180B;
+        }
+        .main{
+            background-color: #F0EFEA;
+            width:100%;
+            height:auto;
+        }
+        .container{
+            width:80%;
+        }
+        h1{
+            font-weight: 600;
+        }
+        #navbar {
+            width: 100%;
+            height:60px;
+            background-color: #34180B;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #navbar a{
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            margin: 0 50px;
+            font-size: 16px;
+        }
+        .flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #hero1{
+            width: 30%;
+            position: relative;
+            left:0px;
+        }
+        .big-text{
+            font-size:50px;
+        }
+        .secondary-text{
+            margin:15px 0px;
+            font-size:30px;
+            font-weight: 600;
+            color: #535353;
+        }
+        #hero-image{
+            height:600px;
+            width:800px;
+            background-size: cover;
+            background-position: center;
+            background:url(coffeehouse1.jpg);
+            border-radius:300px;
+            box-shadow: -300px 60px 0px #BE9F8A;
+        }
+        .button{
+            margin-top: 20px;
+            padding:15px 30px;
+            border:none;
+            font-weight: 600;
+            font-size: 18px;
+            border-radius: 25px;
+            transition: 0.4s ease-in-out;
+        }
+        .waitlist-button{
+            color:white;
+            background-color:#34180B;
+            border: 4px solid #34180B;
+        }
+        .waitlist-button:hover{
+            color:#34180B;
+            background:none;
+
+        }
+        .light-bg{
+            background-color: #F0EFEA;
+            height:1000px;
+            width: 100%;
+            text-align: left;
+        }
+        #about-image{
+            height:800px;
+            width:700px;
+            background-size:;
+            background-position:center;
+            background:url(coffeehouse1.jpg);
+            border-radius:300px;
+            box-shadow: 300px 60px 0px #BE9F8A;
+        }
+    </style>
+</head>
+<body>
+    <!--Navbar-->
+    <div>
+        <nav id="navbar">
+            <a href="http://" target="_blank" rel="noopener noreferrer">about</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">neighborhoods</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">join the waitlist</a>
+        </nav>
+    </div>
+    <!--Container-->
+    <div class="main flex">
+        <div class="container">
+            <!--Hero Section-->
+            <div id="hero" class="light-bg flex">
+                <div id="hero1">
+                    <h1 class="big-text">A new way to interact with local coffeehouses in your neighborhood.</h1>
+                    <button type="button" class="button waitlist-button">join the waitlist</button>
+                </div>
+                <div id="hero-image"></div>
+            </div>
+            <!--About Section-->
+            <div id="about" class="light-bg flex">
+                <div id="about-text">
+                    <h1 class="big-text">Never guess whether your local café is open again.</h1>
+                    <h3 class="secondary-text">Ever strolled up to your local java joint,  daydreaming about that perfect latte,  just to find out they closed 23 minutes ago? Me, too.</h3>
+                    <h3 class="secondary-text">That’s why I built BeanMeUp. Now, you can add  your favorite local coffeehouses to your profile, and check their hours and seating availabilities at a glance.</h3>
+                </div>
+            
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
